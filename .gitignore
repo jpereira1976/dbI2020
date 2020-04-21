@@ -1,13 +1,9 @@
 .idea/**
 .gradle/**
 build/
-gradle/
-gradlew
-gradlew.bat
-
-/.gradle/
+.gralde/
 .classpath
 .project
 bin/**
 .settings/**
-
+out/**
