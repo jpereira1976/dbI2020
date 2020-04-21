@@ -7,8 +7,8 @@ import java.sql.Statement;
 public class MainJDBCFirstExample {
 
     public static void main(String[] args) throws Exception {
-//        Class.forName("com.mysql.jdbc.Driver");
-        Class.forName("org.postgresql.Driver");
+        Class.forName("com.mysql.jdbc.Driver");
+//        Class.forName("org.postgresql.Driver");
 //        Connection con = DriverManager.getConnection(
 //                "jdbc:mysql://localhost:3306/test2020","root","geocom");
         Connection con = DriverManager.getConnection(
